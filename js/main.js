@@ -13,5 +13,10 @@ createButton.addEventListener("click", ()=> {
                     Теория параграф 2.3. Домашняя работа 1.2
                 </div>
     `
-    lists.appendChild(list)
+    const closeButton = list.querySelector('.note__list-close');
+    closeButton.addEventListener("click", ()=>{
+        list.remove();
+    })
+    lists.appendChild(list);
 })
+
