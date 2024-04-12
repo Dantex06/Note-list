@@ -2,19 +2,19 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: #e5d6ff;
+    background-color: #c7bbe7;
 }
 
 .note__add {
     display: flex;
     justify-content: center;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
 }
 
 .note__button {
     margin-top: 20px;
     background-color: #8E7AB5;
-    border: #d9c2ff 3px solid;
+    border: white 3px solid;
     font-size: 30px;
     border-radius: 15px;
     color: white;
@@ -36,15 +36,45 @@
 }
 
 .note__list{
+    display: flex;
+    flex-direction: column;
     background-color: #E0D5E1;
-    border: #d9c2ff 3px solid;
+    border: white 3px solid;
     border-radius: 10px;
-    height: 300px;
+    height: 320px;
     width: 200px;
     margin: 30px 50px;
-
 }
 
+.note__list-close {
+    /*display: block;*/
+    margin-left: 10px;
+    margin-top: 10px;
+    border: white 2px solid;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    background: #8E7AB5;
+}
+.note__list-close:hover {
+    cursor: pointer;
+    background-color: #766595;
+}
+.note__list-title {
+    width: 170px;
+    margin: 30px auto 40px auto;
+    background: transparent;
+}
+.note__list-description {
+    background-color: #8E7AB5;
+    padding: 10px 0;
+    border: #8E7AB5 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    width: 170px;
+    margin: 0 auto;
+
+}
 main {
     max-width: 1200px;
     height: 1000px;
