@@ -73,6 +73,7 @@
     text-align: center;
     width: 170px;
     margin: 0 auto;
+    word-wrap: break-word;
 }
 .modal {
     display: none;
